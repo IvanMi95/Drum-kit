@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url('./Assets/pexels-thibault-trillet-167636.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.conatiner {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  font-family: pacifico, cursive;
+  color: #cb2026;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.keyboard,
+li {
+  display: inline;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.keyboard {
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  background-color: #867f7f;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 14px 1px rgba(0, 0, 0, 0.73);
+  box-shadow: 5px 5px 14px 1px rgba(0, 0, 0, 0.73);
+}
+
+.key-mapping {
+  position: absolute;
+  background-color: rgb(82, 82, 82);
+  font-family: pacifico, cursive;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+  width: 20vw;
+  height: 90vh;
+  right: 0;
+  top: 10vh;
+  text-align: center;
+}
+
+.legend {
+  display: flex;
+  font-size: 2rem;
+  list-style-type: none;
+  flex-direction: column;
+
+}
+
+.drumkit {
+  position: absolute;
+  left: 25vw;
+}
+
+.keyboard-drum {
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  color: white;
+  background-color: #867f7f;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 14px 1px rgba(0, 0, 0, 0.73);
+  box-shadow: 5px 5px 14px 1px rgba(0, 0, 0, 0.73);
+}
+
+.keyboard-drum.e {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.keyboard-drum.r {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.keyboard-drum.f {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+.keyboard-drum.g {
+  position: absolute;
+  top: 150px;
+  left: 130px;
+}
+
+.keyboard-drum.h {
+  position: absolute;
+  top: 150px;
+  left: 310px;
+}
+
+.keyboard-drum.v {
+  position: absolute;
+  top: 310px;
+  left: 160px;
+}
+
+.keyboard-drum.b {
+  position: absolute;
+  top: 310px;
+  left: 260px;
+}
+
+.keyboard-drum.j {
+  position: absolute;
+  top: 215px;
+  left: 350px;
+}
+
+.keyboard-drum.i {
+  position: absolute;
+  top: 25px;
+  left: 400px;
+}
+
+.keyboard-drum.k {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}

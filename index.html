@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">JS Drum Kit</h1>
+    <img class="container-durm">
+      <div class="key-mapping">Key Map
+        <ul class='legend'>
+          <li><div class="keyboard"><kbd id="drumE">E</kbd></div>Crash</li>
+          <li><div class="keyboard"><kbd id="drumR">R</kbd></div>Ride</li>
+          <li><div class="keyboard"><kbd id="drumF">F</kbd></div>Floor tom</li>
+          <li><div class="keyboard"><kbd id="drumG">G</kbd></div>Mid tom</li>
+          <li><div class="keyboard"><kbd id="drumH">H</kbd></div>High tom</li>
+          <li><div class="keyboard"><kbd id="drumV">V</kbd></div><div class="keyboard"><kbd id="drumB">B</kbd></div>Kick</li>
+          <li><div class="keyboard"><kbd id="drumJ">J</kbd></div>Snare</li>
+          <li><div class="keyboard"><kbd id="drumI">I</kbd></div>Hi-Hat Open</li>
+          <li><div class="keyboard"><kbd id="drumK">K</kbd></div>Hi-Hat Closed</li>
+        </ul>
+      </div>
+      <div class="drumkit">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Drums.svg" alt="drumSVG" class="image">
+        <div class="keyboard-drum e">E</div>
+        <div class="keyboard-drum r">R</div>
+        <div class="keyboard-drum f">F</div>
+        <div class="keyboard-drum g">G</div>
+        <div class="keyboard-drum h">H</div>
+        <div class="keyboard-drum v">V</div><div class="keyboard-drum b">B</div>
+        <div class="keyboard-drum j">J</div>
+        <div class="keyboard-drum i">I</div>
+        <div class="keyboard-drum k">K</div>
+      </div>
+    </div>
+  </div>
+  <audio id="snare" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/snare-acoustic02.wav" type="audio/mp3">
+  </audio>
+  <audio id="crash" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/crash-tape.wav " type="audio/mp3">
+  </audio>
+  <audio id="ride" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/ride-acoustic01.wav" type="audio/mp3">
+  </audio>
+  <audio id="floorTom" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/tom-lofi.wav" type="audio/mp3">
+  </audio>
+  <audio id="highTom" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/tom-analog.wav" type="audio/mp3">
+  </audio>
+  <audio id="lowTom" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/tom-acoustic01.wav" type="audio/mp3">
+  </audio>
+  <audio id="kickOne" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/kick-acoustic01.wav" type="audio/mp3">
+  </audio>
+  <audio id="kickTwo" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/kick-electro01.wav" type="audio/mp3">
+  </audio>
+  <audio id="hiHatOpen" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/hihat-digital.wav" type="audio/mp3">
+  </audio>
+  <audio id="hiHatClosed" preload="auto" controls style="display:none">
+    <source src="./Assets/[99Sounds] 99 Drum Samples/Samples/hihat-plain.wav" type="audio/mp3">
+  </audio>
+</body>
+
+</html>
